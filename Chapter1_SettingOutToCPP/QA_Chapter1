@@ -1,17 +1,29 @@
 1. Jak nazywaja sie moduly programu w C++?
+	-funkcje
 2. Co robi ta dyrektywa preprocesora? #include <iostream>
+	-zastępuje te dyrektywję zawartością pliku iostream przed ostateczną kompilacją
 3. Co robi to polecenie? using namespace std;
+	-udostępnia programowi definicje znajdujące się w przestrzeni nazw std
 4. Jakiego polecenia uzyjesz by wypisać na ekranie "Hello, World" i przejść do nowej linii?
+	- std::cout << "Hello, World\n"
 5. Jakiego polecenia użyjesz by stworzyć zmienną typu całkowitego nazwaną cheeses?
+	- int cheeses;
 6. Jakiego polecenia uzyjesz by przypisac wartosc 32 to zmiennej czeeses?
+	- cheeses = 32;
 7. Jakiego polecenia uzyjesz by przypisac wartość pobraną z klawiatury do zmiennej cheeses?
+	- std::cin >> cheeses;
 8. Jakiego polecenia uzyjesz by wypisac na ekranie "We haave X varieties of cheese", gdzie zmienna cheeses zastepuje X?
+	- std::cout << "We have " << cheeses << " varieties of cheese";
 9. Co te prototypy funkcji mowia o tych funkcjach?
 a) int froop(double t);
+	-wywoływana z 1 argumentem typu double, a zwraca wartosc typu int
 b) void rattle(int n);
+	-wywolywana z 1 argumentem typu int, a nie ma typu zwracanego
 c) int prune(void);
+	-nie pobiera zadnych argumentow, zwraca typ int
 10. Kiedy nie musisz uzywac slowa kluczowego return przy definiowaniu funkcji?
+	-kiedy funkcja nie ma zwracanego typu (void func())
 11. Niech twoja funkcja main() ma taka linijke
 cout << "Please enter your PIN: ";
 a kompilator zglasza ze cout jest nieznany, jaka jest przyczyna tego bledu, jakie sa 3 sposoby by temu zaradzic?
-
+-brak #include <iostream> oraz brak using namespace std; bądź std::cout
