@@ -26,4 +26,4 @@ c) int prune(void);
 11. Niech twoja funkcja main() ma taka linijke
 cout << "Please enter your PIN: ";
 a kompilator zglasza ze cout jest nieznany, jaka jest przyczyna tego bledu, jakie sa 3 sposoby by temu zaradzic?
--brak #include <iostream> oraz brak using namespace std; bądź std::cout
+	-brak #include <iostream> oraz brak using namespace std; bądź std::cout
