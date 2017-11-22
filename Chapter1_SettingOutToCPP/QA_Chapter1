@@ -1,0 +1,17 @@
+1. Jak nazywaja sie moduly programu w C++?
+2. Co robi ta dyrektywa preprocesora? #include <iostream>
+3. Co robi to polecenie? using namespace std;
+4. Jakiego polecenia uzyjesz by wypisać na ekranie "Hello, World" i przejść do nowej linii?
+5. Jakiego polecenia użyjesz by stworzyć zmienną typu całkowitego nazwaną cheeses?
+6. Jakiego polecenia uzyjesz by przypisac wartosc 32 to zmiennej czeeses?
+7. Jakiego polecenia uzyjesz by przypisac wartość pobraną z klawiatury do zmiennej cheeses?
+8. Jakiego polecenia uzyjesz by wypisac na ekranie "We haave X varieties of cheese", gdzie zmienna cheeses zastepuje X?
+9. Co te prototypy funkcji mowia o tych funkcjach?
+a) int froop(double t);
+b) void rattle(int n);
+c) int prune(void);
+10. Kiedy nie musisz uzywac slowa kluczowego return przy definiowaniu funkcji?
+11. Niech twoja funkcja main() ma taka linijke
+cout << "Please enter your PIN: ";
+a kompilator zglasza ze cout jest nieznany, jaka jest przyczyna tego bledu, jakie sa 3 sposoby by temu zaradzic?
+
